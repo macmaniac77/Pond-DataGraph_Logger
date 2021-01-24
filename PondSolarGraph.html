@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="solarpond.css">
+<html>
+ <head></head>
+ <script>
+   var d = new Date();
+   document.getElementById("demo").innerHTML = d;
+ </script>
+ <body style="background-image: url('pondcam.png');background-size: cover;">
+  <meta http-equiv='refresh' content='10'>    
+  <h2>Solar Pond Data Stream:</h2> 
+  <img src="plot.png" alt="SolarPlot" width="600" style="opacity:0.9;filter:alpha(opacity=90);"/> <img src="PondCam.png" alt="PondCam" width="700" style="vertical-align:top;">
+  <img src="http://10.0.0.166:8080/video" class="rotcrop">
+ </body>
+</html>
