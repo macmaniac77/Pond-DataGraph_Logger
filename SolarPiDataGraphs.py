@@ -148,8 +148,8 @@ while True:
         #if Hour
             #del x[:]
 #except:
-#    if path.exists('/var/www/html/plot.png'):
-#        os.system("./var/www/html/DayPlots/plotexit.sh")
-#        print("Exeption Caught: GoodBye")
-#    else:
-#        print("plot.png Not Found. Goodbye.")
+if path.exists('/var/www/html/plot.png'):
+    os.system("sh /var/www/html/DayPlots/plotexit.sh")
+    print("Exeption Caught: GoodBye")
+else:
+    print("plot.png Not Found. Goodbye.")
