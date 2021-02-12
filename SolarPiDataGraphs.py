@@ -75,7 +75,7 @@ def graph():
     elif battamps < 0.5 and battamps > -0.5:
         plt.ylim(-6,10)
     elif battamps < -0.5:
-        plt.ylim(-5.5,0)
+        plt.ylim(-9.5,0)
     elif battamps < 2:
         plt.ylim(0,2)
     elif battamps < 5:
