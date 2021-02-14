@@ -47,6 +47,7 @@ def write_ADS():
 plt.ion()
 plt.figure(1, facecolor='lightgrey', edgecolor='darkblue', figsize=(6,25))
 plt.title('Solar Pond Battery')
+plt.grid(True)
 v0 = [] #Array for A0
 v3 = [] #Array for A3
 x = [] #Array for Time(s)
